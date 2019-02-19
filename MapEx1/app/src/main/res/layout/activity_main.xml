@@ -1,0 +1,11 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.MapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    map:cameraTargetLat="36.634"
+    map:cameraTargetLng="127.460"
+    map:cameraZoom="15"/>
+
+<!--맵의 중심좌표를 사창사거리로 정해줌. 사거리의 위도36.634, 경도127.460 -->
